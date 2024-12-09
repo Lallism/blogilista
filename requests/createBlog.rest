@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiaWF0IjoxNzMzMzk0MDgxfQ.5BogXDUIW0ql4tli6aI2uerebBh_k-7WFgt75ko24FY
+Content-Type: application/json
+
+{
+  "title": "What exactly is DRM in video games and why should you care?",
+  "author": "Jędrzej Kunat",
+  "url": "https://www.gog.com/blog/what-exactly-is-drm-in-video-games-and-why-should-you-care/",
+  "year": 2024
+}
